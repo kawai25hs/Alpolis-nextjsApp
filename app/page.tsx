@@ -1,9 +1,14 @@
 export default function Home() {
   return (
-    <main>
-      <h2>
-        Dashboard
-      </h2>
-    </main>
+    <>
+      <div className="container mx-auto px-4">
+        <h1>Hello word</h1>
+        <p>This is a content to make our page longer</p>
+        <div className="w-full h-screen bg-amber-200"></div>
+        <p>
+          Lorem Ipsum is simply dummy text ...
+        </p>
+      </div>
+    </>
   )
 }
