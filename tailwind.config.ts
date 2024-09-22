@@ -15,7 +15,7 @@ const config: Config = {
       },
     },
     fontFamily: {
-      jaro: ["Jaro", 'sans-serif'],
+      silkscreen: ["Silkscreen", 'sans-serif'],
     },
   },
   plugins: [],

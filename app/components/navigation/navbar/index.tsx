@@ -6,7 +6,7 @@ import Button from "./Button";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="w-full h-16 bg-amber-50 sticky top-0 drop-shadow-md font-jaro text-lg flex justify-center">
+      <div className="w-full h-16 bg-amber-50 sticky top-0 drop-shadow-md font-silkscreen text-base flex justify-center">
         <div className="container px-4 h-full">
           <div className="flex justify-between md:justify-center items-center h-full">
             <span className="md:hidden sm:mr-auto">
@@ -31,7 +31,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 Login
               </li>
               <li>
-                Create an account
+                Register
               </li>
             </ul>
 
